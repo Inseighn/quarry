@@ -1,4 +1,5 @@
 require 'net/http'
+
 module Quarry
 	class HTTP
 		def self.get(url, options = {})
